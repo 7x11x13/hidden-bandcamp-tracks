@@ -18,6 +18,10 @@ const num_tracks_regex = /(\d+) track album/;
     const title = document.querySelector(".trackTitle");
     const hidden_text = document.createElement("span");
     hidden_text.style = "color:slategray";
-    hidden_text.textContent = `(${num_hidden_tracks} hidden tracks)`;
+    if (num_hidden_tracks === 1) {
+        hidden_text.textContent = `(1 hidden track)`;
+    } else {
+        hidden_text.textContent = `(${num_hidden_tracks} hidden tracks)`;
+    }
     title.appendChild(hidden_text);
 })();
