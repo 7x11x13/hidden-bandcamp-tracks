@@ -1,3 +1,5 @@
 *.zip
 *.xpi
+*.pem
+*.crx
 .web-extension-id
