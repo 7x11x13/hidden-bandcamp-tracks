@@ -15,7 +15,7 @@ const num_tracks_regex = /(\d+) track album/;
 
     const num_hidden_tracks = num_tracks - num_visible_tracks;
 
-    const title = document.querySelector(".trackTitle");
+    const title = document.querySelector("#name-section");
     const hidden_text = document.createElement("span");
     hidden_text.style = "color:slategray";
     if (num_hidden_tracks === 1) {
