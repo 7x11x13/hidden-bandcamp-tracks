@@ -2,19 +2,21 @@
   "manifest_version": 3,
   "name": "Hidden Bandcamp Tracks",
   "version": "1.3",
-
   "description": "Shows how many hidden tracks an album on Bandcamp has",
-
   "icons": {
     "48": "icons/ghost-48.png",
     "96": "icons/ghost-96.png",
     "128": "icons/ghost-128.png"
   },
-
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["show_hidden.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{f890d62d-309c-48ab-abc1-1df800e8e830}"
+    }
+  }
 }
