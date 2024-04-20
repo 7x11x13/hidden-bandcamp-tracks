@@ -11,7 +11,7 @@ const num_tracks_regex = /(\d+) track album/;
     for (const track_num of document.querySelectorAll(".track_number")) {
         track_numbers.push(parseInt(track_num.textContent.slice(0, -1)));
     }
-    const num_visible_tracks = Math.max(...track_numbers);
+    const num_visible_tracks = Math.max(0, ...track_numbers);
 
     const num_hidden_tracks = num_tracks - num_visible_tracks;
 
