@@ -8,9 +8,7 @@ Browser extension to show the number of hidden tracks for any album on Bandcamp.
 
 ### Firefox
 
-Download the latest .xpi file [here](https://github.com/7x11x13/hidden-bandcamp-tracks/releases) and drag it onto your Firefox browser window.
-
-Also available at <https://addons.mozilla.org/en-US/firefox/addon/hidden-bandcamp-tracks/>
+<https://addons.mozilla.org/firefox/addon/hidden-bandcamp-tracks/>
 
 ### Chrome
 
