@@ -12,4 +12,4 @@ Browser extension to show the number of hidden tracks for any album on Bandcamp.
 
 ### Chrome
 
-Navigate to <chrome://extensions/> in browser then download the latest .crx file [here](https://github.com/7x11x13/hidden-bandcamp-tracks/releases) and drag it onto the page.
+<https://chromewebstore.google.com/detail/hidden-bandcamp-tracks/fcjgbgpgkjmgkkfmlfadenpdhgoobafa>
