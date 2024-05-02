@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hidden Bandcamp Tracks",
-  "version": "1.3",
+  "version": "1.4",
   "description": "Shows how many hidden tracks an album on Bandcamp has",
   "icons": {
     "48": "icons/ghost-48.png",
