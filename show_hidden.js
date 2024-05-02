@@ -1,7 +1,9 @@
 const num_tracks_regex = /(\d+) track album/;
 (function() {
     // make sure we are on an album page
+    if (document.querySelector("meta[property='twitter:site']") == null) return;
     if (document.querySelector("meta[property='twitter:site']").content != "@bandcamp") return;
+    if (document.querySelector("meta[property='og:type']") == null) return;
     if (document.querySelector("meta[property='og:type']").content != "album") return;
 
     const desc = document.querySelector("meta[property='og:description']").content;
