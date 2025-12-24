@@ -13,3 +13,11 @@ Browser extension to show the number of hidden tracks for any album on Bandcamp.
 ### Chrome
 
 <https://chromewebstore.google.com/detail/hidden-bandcamp-tracks/fcjgbgpgkjmgkkfmlfadenpdhgoobafa>
+
+### Userscript
+
+You can use this as a userscript with Tampermonkey or Violentmonkey:
+
+1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/)
+2. Install the script directly from the following link:
+   [show_hidden.user.js](https://raw.githubusercontent.com/7x11x13/hidden-bandcamp-tracks/main/show_hidden.user.js)
